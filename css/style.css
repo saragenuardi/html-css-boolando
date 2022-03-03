@@ -62,30 +62,27 @@ html {
     padding: .2em .5em;
      position: absolute;
     left: 0;
-    bottom: 10%; 
+    bottom: 15%; 
 }
 
-.sostenibilità{
+.sostenibilita{
     background-color: #00875A;
     color: #ffffff;
     font-weight: bolder;
     padding: .2em .5em; 
     position: absolute;
-    bottom: 10%;
+    bottom: 15%;
     left: 15%; 
     }
    
     .barra{
         display: inline-block;
         position: absolute;
-        bottom: 10%;
+        bottom: 15%;
         left: 0;
     }  
 
-.row-2part {
-    margin-bottom: 2.5em;
-    width:100%;
-} 
+
 
 
 /* description shop  */
