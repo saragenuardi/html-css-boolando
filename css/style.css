@@ -51,3 +51,24 @@
     padding: 20%;
 }
 
+.sale{
+    background-color: #EB0037;
+    color: #ffffff;
+    padding: .2em .5em;
+     position: absolute;
+    left: 0;
+    bottom: 5%; 
+}
+
+.sostenibilità{
+    background-color: #00875A;
+    color: #ffffff;
+    font-weight: bolder;
+    padding: .2em .5em; 
+    position: absolute;
+    bottom: 5%;
+    left: 15%; 
+
+    }
+   
+
