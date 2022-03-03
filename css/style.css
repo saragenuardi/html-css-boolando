@@ -1,6 +1,6 @@
 /* RESET */
 
- * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,16 +15,19 @@
 }
 
 .row {
-    width: 100%;
     margin-bottom: 2em;
 }
 
 /* PRODUCT */
 .product {
+    width: calc(100%/3 - 12px);
     display: inline-block;
     vertical-align: top;
     position: relative;
-    
+}
+
+.product img {
+    width: 100%;
 }
 
 .shop  {
@@ -47,3 +50,4 @@
     text-align: center;
     padding: 20%;
 }
+
