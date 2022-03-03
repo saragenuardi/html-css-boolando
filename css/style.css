@@ -1,0 +1,40 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 3em auto;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+/* PRODUCT */
+.product {
+    display: inline-block;
+    width: calc((100%/3) - 8px);
+    margin: 0 4px;
+    vertical-align: top;
+}
+
+.shop  {
+    width: 100%;
+    position: relative;
+}
+
+.square {
+    width: 3em;
+    height: 3em;
+    background-color: black;
+    position: absolute;
+    top: 10%;
+    right: 0;
+}
