@@ -1,9 +1,11 @@
 /* RESET */
-* {
+
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} 
+
 
 /* COMMON */
 .container {
@@ -20,21 +22,28 @@
 /* PRODUCT */
 .product {
     display: inline-block;
-    width: calc((100%/3) - 8px);
-    margin: 0 4px;
     vertical-align: top;
+    position: relative;
+    
 }
 
 .shop  {
     width: 100%;
-    position: relative;
+    position: absolute;
 }
 
 .square {
     width: 3em;
     height: 3em;
-    background-color: black;
+    background-color: white;
     position: absolute;
-    top: 10%;
+    display: inline-block;
+    top: 5%;
     right: 0;
+}
+
+.heart {
+    font-size: 25px;
+    text-align: center;
+    padding: 20%;
 }
