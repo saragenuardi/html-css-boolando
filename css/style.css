@@ -23,13 +23,30 @@ html {
 }
 
 .heart {
-    font-size: 25px;
+    background-color: #ffffff;
+    font-size: 2em;
     text-align: center;
-    padding: 20%;
+    width: 20%;
     position: absolute;
+    right: 50%;
+    top: 10%;
 }
 
+.img-intera{
+    display: none;
+}
+
+.product:hover .img-intera{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+
+
 /* PRODUCT */
+
+
 .product {
     width: calc(100%/3 - 12px);
     display: inline-block;
@@ -59,6 +76,7 @@ html {
 .sale{
     background-color: #EB0037;
     color: #ffffff;
+    font-weight: bolder;
     padding: .2em .5em;
      position: absolute;
     left: 0;
@@ -75,6 +93,10 @@ html {
     left: 15%; 
     }
    
+    .only {
+        left: 0;
+    }
+
     .barra{
         display: inline-block;
         position: absolute;
